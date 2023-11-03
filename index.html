@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+
+    <link rel="icon" href="Images/logo/log1.png
+    " type="image/x-icon">
+
+    <title>AquaSense+</title>
+</head>
+
+<body style="background-color: #d3e6f74d">
+    <!-- NavBar -->
+    <nav id="navmenu" class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand" href="#home">
+            <img src="./Images/logo/log1.png" width="40" height="40" class="d-inline-block align-top"  loading="lazy">
+            <span>AquaSense+</span></br>
+        </a>
+        <button id="nav-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span id="nav-toggle-icon" class="fas fa-ellipsis-v"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="navmenu-links" class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Project Scope
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#project-scope">Literature Survey</a>
+                        <a class="dropdown-item" href="#research_gap">Research Gap</a>
+                        <a class="dropdown-item" href="#research_problem">Research Problem & Solution</a>
+                        <a class="dropdown-item" href="#research_objectives">Research Objectives</a>
+                        <a class="dropdown-item" href="#methodology">Methodology</a>
+                        <a class="dropdown-item" href="#tech_used">Technologies</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#milestones">Milestones</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Downloads
+                </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#downloads">Documents</a>
+                        <a class="dropdown-item" href="#presentations">Presentations</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#achievements">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+        <div class="container">
+            <div class="hero-cta">
+                <h1>IoT Based Automated Solution for Carp Fish Farming <br/>using Sensor Networks and Biochemical Parameters</h1>
+                <a class="btn btn-outline-light" type="button" href="#project-scope"><span class="btn-text">Learn More</span><span class="fas fa-chevron-right btn-icon"></span></a>
+            </div>
+        </div>
+        <div class="hero-cover">
+            <img class="spotlight-image" src="./Images/other/skele.png" />
+            <img class="hero-image" src="./Images/other/fish.jpg" />
+        </div>
+    </section>
+    <!-- project-scope -->
+    <section id="project-scope" class="main-sections" style="background-color:#ffffff">
+        <div class="container">
+            <h5 class="section-headings">Project Scope</h5>
+            <!-- Literature Survey -->
+            <div id="literature" class="sub-section">
+                <h2>Literature Survey</h2>
+                <div class="row">
+                    <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+                        <div class="section-left">
+                            <div class="section-info-div">
+                                <div class="row">
+                                    <div class="col-sm-5"><img src="./Images/logo/log1.png" width="90%" /></div>
+                                    <div class="col-sm-7 text-col">AquaSense+<span style="color: rgb(13, 40, 71); font-size: 20px;">Smart Iot Solution - IoT Device and Mobile Application</span style="color: grey; font-size: 20px;"></div>
+                        </div>
+                      </div>
+                      <div class="section-figure " >
+                        <img style="align-items:center" src="./Images/lit/graph.jpg" width="90%"/>
+                        <p>Figure 1. Total Inland aquaculture production between 2015 to 2022 [2]</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+					<p>In Sri Lanka, people use fish as their main protein food resource. Sri Lanka has a total of 1700 kilometers of coastline, with an estimated 121,000 hectares of lagoons and estuaries [1] But we can see that saltwater fish prices are very high these days. So, lots of people in Sri Lanka didn’t buy fish products because of the high cost and they couldn’t afford to spend that much of money because the economic crisis. They didn’t have to way to get protein in their day-to-day meals. The government and NAQDA now have an eye on developing inland aquaculture. Previously in the inland fish industry farmers sold the wild-caught that they caught from natural ponds. So only the village-based families got a chance to eat those freshwater fish species. But now the government and NAQDA have built inland aquaculture fish farms all around the country so that lots of people can get freshwater fish species as their food resource. Carp fish species are the main species that Sri Lankan farmers use to breed on their farms. We identified that one of the major problems in those farms is managing and detecting water quality after fish feeding. In NAQDA farms they use larger ponds, medium ponds, small ponds, and tanks for fish breeding. One of the major challenges of this fish framing is maintaining the water quality to have healthy fish and get maximum output of fish-based products to local and foreign markets[3]. </p>
+				   <p>Min, Wei, Showkat and Nen-Fu [7] built an IoT and AI-based surrogate model-based smart aquaculture management system. Sensors built into the system is managed by an Arduino Mega2560. They link the various feeding system parameters using a deep learning model to forecast Californian bass fish development. To remotely monitor and manage the system, a mobile application has been created. To determine the input and output variables with the greatest influence on the model's ability to forecast the future, a correlation study was carried out. </p>
+                    <div class="references">
+                      <p class="pt-sm-1"><strong>References</strong></p>
+                      <ol>
+                        <li>FAO FishStat (2020). https://bit.ly/2HGJV1R
+                        <li>Inland fisheries and aquaculture production 2022.</li>
+                        <li>Silva E. I. L., Gamlath G. A. R. K., 2000 Catchment characteristics and water quality of three reservoirs (Victoria, Minneriya and Udawalawe) in Sri Lanka. Sri Lanka Journal of Aquatic Science 5:55-73.</li>
+                        <li>Suguna,T. Fisheries Research Station, S.V. Veterinary University, West Godavari, Andhra Pradesh - 534 199, India (2021) Infectious Fish Disease Occurrence in Carp Culture Ponds of West Godavari Distict,AndraPradesh, Indiahttps://doi.org/10.20546/ijcmas.2021.1011.043</li>
+                        <li>Jhingran V. G., Khan H. A., 1979 Synopsis of biological data on the mrigal, Cirrhinus mrigala (Hamilton 1822). FAO Fisheries Synopsis, No.120, p.</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Research Gap -->
+            <div id="research_gap" class="sub-section" >
+              <h2>Research Gap</h2>
+              <p>Following areas are the research gaps found in most of the recent researches.</p>
+              <div class="row mt-5 research-gap">
+			<div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-fish fa-4x " aria-hidden="true" style="color: rgb(49, 78, 143); "></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Identification & classification </h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;"> There are no records of a smart solution for carp fish farming in Sri Lanka. It's difficult to manage carp fish farms water quality manually. </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-virus fa-spin fa-4x " aria-hidden="true" style="color: rgb(49, 78, 143);"></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Disease Identification</h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;">Smart solution for identification of disease is very important when managing a carp farm. but there is no reported solution for that.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-info fa-4x " aria-hidden="true" style="color: rgb(49, 78, 143);"></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Information sharing</h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;">Real time IoT system and Real time communication system to speed up information sharing between fish farmers, extension personals and researchers has been identified as priority need for effective disease control.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+			</div> 
+              </div>
+          </div>
+            <!-- Research Problem -->
+            <div id="research_problem" class="sub-section">
+              <h2>Research Problem & Solution</h2>
+			   <div class="row">
+                <div id="project-scope-left" class="col-md-6 col-sm-20 pt-lg-20 justify-text">
+                 <h5><strong>Research Problem</strong></h5>
+				 </br>
+					<h4 class="highlight">How to manage Carp fish farm water conditions and prevent diseseses using IoT based System?</h4>
+					<p></p>
+					<p style="text-align: justify;">One of the major challenges of this fish framing is maintain the water quality to have healthy fish and get maximum output of fish based products to local and foreign markets.[2] As per the data we gathered from the NAQDA farmers the main reason for water quality problems is providing fish pallets and other feeding items more than the fish needed. Simply overfeeding and fish wastage. So, because of overfeeding and fish wastage the water parameters of fish tank/pond Container become unlivable for Carp fish. Decreased oxygen levels can lead to stress and death of fish. Toxicity can damage to their health and fish may not grow well in those condition and also can create an environment that is conductive to the growth disease. Causing pathogens which can leads to outbreaks of disease to carp fish.
+            Argulus, Tricodina, Aerominia, columnaris, gnteric, redmouth disease carp edma virus, spring viraernia of card are some fish diseases that spread because of bad water quality conditions. Still the farmers did not have a way to identify these diseases early. So, they can start took necessary actions when the fish started to show the symptoms. So, at that time it would be too late and they can lose their entire fish aqua culture.[3]</p>
+				</br>
+				</div>
+
+				<div id="project-scope-right" class="col-md-6 col-sm-15 pt-lg-5">
+                  <div class="section-left">
+                    <div class="section-figure">
+                      <iframe width="100%" height="315" src="https://www.youtube.com/embed/tghuYkynrk4?si=D8hlN5c_RyKfVZNP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <p>Device Demonstration - Solution</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+			     <div>
+				 <h5><strong>Proposed Solution</strong></h5>
+				 </br>
+				 <p style="text-align: justify;"> The proposed solution provides a smart approach for fish farmers, researchers, and industry specialists to detect water quality conditions and identify the risk of diseases. As shown in Fig. 3, the device contains an ESP32 module, pH sensor, and turbidity sensor. The temperature of the water controls every aspect of the fishpond's operation. Along with regulating the growth and development of the pond's vegetation and other animals, it also regulates the amount of oxygen in the water. The optimal temperature for river-dwelling fish, such as trout, is around 14°C. With a 2°C allowed range, 25°C is the best temperature for tropical fish. 20 to 25°C is the ideal water temperature for carp fish growth and reproduction [12]. We used an ESP32 Microcontroller as the main board in the system we designed. It is a Wi-Fi and Bluetooth-integrated low-cost and low-power chip microcontroller [15].	</P>
+                </div>
+          </div>
+            <!-- Research Objectives -->
+		   <div id="research_objectives" class="sub-section">
+        <div class="container">
+          <h2 class="pb-5 pt-5 text-center mb-5 display-5">Research Objectives</h2>
+          <!-- First Content Section-->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fas fa-tint"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Real-time Sensor Data Gathering and Predict Future Water Quality Condition</h4>
+              <p style="text-align: justify;">Collect relevant data on fish feeding patterns, water quality and analyze the data using algorithms to identify patterns and build predictive models based on the data analysis to make predictions about future events, such as water quality or feeding behavior. By analyzing data on past fish feeding and water quality patterns, predictive analytics can help identify potential issues before they occur, allowing for proactive measures to be taken to prevent them.</p>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4>Control the Water Quality Using Chemicals and Future Chemical Calcultion</h4>
+              <p style="text-align: justify;">The condition of the water in fish farms is continuously monitored using sensors (PH, temperature and dissolved oxygen levels), and the data collected is used to determine if and when chemicals need to be applied. This ensures that chemicals are only used when necessary, in the right amount, and at the right time, which can improve the overall health of the fish, reduce costs, and minimize environmental impact. By automating the process, the time and effort required to manually monitor and adjust the water chemistry can also be reduced.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fas fa-tint"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+          <!-- Third Content Section -->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fas fa-tint"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Early Disease Risk Identification, Predict Future Disease Risks and Disease Reporting</h4>
+              <p style="text-align: justify;">
+                The carp fish virus disease types are different in different temperatures/ PH values and oxygen levels. By using the collected data about carp viral diseases, algae conditions, temperature, Oxygen levels and PH values going to develop An system that that can measure the temperatures, oxygen levels and PH values and alert farmers that the pond is in a risk of specific viral infections that is unique to that temperature, oxygen level and PH value. So according to
+the alerts farmers can start early treatment for the viral diseases and algae conditions. For this going to use Machine Learning algorithms to train the system.
+              </p>
+            </div>
+          </div>
+		   <!-- Path Line -->
+
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4>Automated Fish feeder using Carp Fish Behaviours</h4>
+              <p style="text-align: justify;">An automated system to identify and feed carp based on behavior is possible by using sensors and machine learning algorithms. The sensors can be used to detect the behavior of the carp, such as swimming patterns, feeding habits, etc. The collected data can then be analyzed and fed into a machine learning algorithm, which can learn to recognize different behaviors. Based on the behavior identified, the system can then automatically dispense food to the carp.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fas fa-tint"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Methodology -->
+            <div id="methodology" class="sub-section">
+              <h2>Methodology</h2>
+              <div class="row">
+                <div id="project-scope-left" class="col-md-6 col-sm-10 pt-lg-5">
+                  <div class="section-left">
+                    <div class="section-figure">
+                      <img src="./Images/other/archi.png" width="200%"/>
+                      <p>Figure 2. High Level Architecture of the system.</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="project-scope-right" class="col-md-12 col-sm-12 pt-lg-5 justify-text">
+                  <p>The proposed IoT system and mobile application consists of 5 main components. They are;</p>
+                  <ol>
+                    <li><strong>Sensor data gathering (pH, temperature, turbidity)</strong></li>
+                    <li><strong>Predict current water quality parameters and future water quality paramete forecasting.</strong></li>
+                    <li><strong>Identify Chemicals that need to bring water pH value to optimal level and chemical calculation</strong></li>
+					<li><strong>Early disease risk identification, disease risk forecasting and disease data visualization</strong></li>
+                    <li><strong>Identify carp fish feeding behaviours</strong></li>
+                  </ol>
+				  <p> The proposed solution provides a smart approach for fish farmers, researchers, and industry specialists to detect water quality conditions and identify the risk of diseases. As shown in Fig. 3, the device contains an ESP32 module, pH sensor, and turbidity sensor. The temperature of the water controls every aspect of the fishpond's operation. Along with regulating the growth and development of the pond's vegetation and other animals, it also regulates the amount of oxygen in the water. The optimal temperature for river-dwelling fish, such as trout, is around 14°C. With a 2°C allowed range, 25°C is the best temperature for tropical fish. 20 to 25°C is the ideal water temperature for carp fish growth and reproduction [12]. We used an ESP32 Microcontroller as the main board in the system we designed. It is a Wi-Fi and Bluetooth-integrated low-cost and low-power chip microcontroller [15].
+            We used the DS18B20 Temperature probe to keep track of the water's temperature. It uses a single wire bus for communication and requires a power supply ranging from 3.0V to 5.5V. operational temperature range is between -10°C and 85°C with an accuracy of +/-0.5 °C.[13].
+            The turbidity sensor need 5V DC to operate. The response time is roughly 500ms, and the operating current is 40mA. It provides both digital output and analogue output between 0 and 4.5V. The adapter's dimensions are 38mm*28mm*10mm/1.5inches *1.1inches*0.4inches, and it can function between 5°C and 90°C [14].
+            To measure the pH value used a pH probe sensor. The module power is 5.00V, size 43mmx32mm, measuring range 0-14ph and temperature range is 0-60°C accuracy is ± 0.1pH (25 ℃) and the response time is ≤ 1min.
+            To measure the pH value used a pH probe sensor. The module power is 5.00V, size 43mmx32mm, measuring range 0-14ph and temperature range is 0-60°C accuracy is ± 0.1pH (25 ℃) and the response time is ≤ 1min.</p>
+
+            <img style="align-items:right" src="./Images/lit/app1.png" width="100%"/>
+
+				  <p>Three sensors temperature, turbidity and pH sensor were used to get the real-time data. We've also created a mobile app for React Native that allows farmers to keep an eye on the relevant water quality metrics detected by smart ponds or tank sensors. The monitored data is directly stored in a cloud database and the app reads the data and shows the real-time data on a dashboard. The main purpose of the system is to predict future water conditions, diseases and future diseases and notify the carp fish farmers. The results of the developed machine learning models learning process highlight its prediction accuracy.
+            Temperature, turbidity, and pH sensor were used to get the real-time data. We've also created a mobile app for React Native that allows farmers to monitor the relevant water quality metrics detected by smart ponds or tank sensors. The program reads the monitored data from a cloud database and displays the real-time information on a dashboard.
+            Utilizing real-time farm information enables you to identify problems before they materialize because the projection is based on the most recent data. The evolution of one parameter and the evolution of external factors might be related. We have utilized the ML model to estimate the major variables influencing the development of the smart fishpond based on the real-time observations of a variety of data. Numerous studies have shown that water temperature is one of the most crucial factors affecting water dissolved oxygen levels. Several factors, including the kind of aquaculture, have a significant impact on the dissolved oxygen levels in aquaculture systems. Depending on the nature of production, these factors' impact varies. The majority, however, may be measured and taken into account by an Internet of Things-based prediction model. Some of these parameters include the feeds' chemical composition and nutritional content. Additionally, it's important to take into account the length, feed level, and biomass of sh as well as algal biomass in fish systems.</p>
+                </div>
+              </div>
+          </div>
+<!-- 
+          <img style="align-items:right" src="./Images/lit/app.png" width="50%"/> -->
+
+            <!-- Technologies Used -->
+            <div id="tech_used" class="sub-section">
+              <h2>Technologies Used</h2>
+              <div class="row technology mt-5">
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/python.png" alt="Python">
+                  </div>
+                  <p>Python</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/react.png" alt="React">
+                  </div>
+                  <p>React</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/tensorflow.png" alt="Python">
+                  </div>
+                  <p>Tensorflow</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/keras.png" alt="Keras">
+                  </div>
+                  <p>Keras</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/pycharm.jpg" alt="PyCharm">
+                  </div>
+                  <p>PyCharm</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/firebase.png" alt="Firebase">
+                  </div>
+                  <p>Firebase</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/googlecloud.png" alt="Google Cloud">
+                  </div>
+                  <p>Google Cloud</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/android.png" alt="Android">
+                  </div>
+                  <p>Android Studio</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/arduino.png" alt="Arduino">
+                  </div>
+                  <p>Arduino</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/colab.png" alt="Google Colab">
+                  </div>
+                  <p>Google Colab</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/googlemap.png" alt="Google map API">
+                  </div>
+                  <p>Google map API</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/openwea.png" alt="openweaather">
+                  </div>
+                  <p>OpenWeather API</p>
+                </div>
+          </div>
+        </div>
+      </section>
+      <!-- Milestones -->
+      <section id="milestones" class="main-sections" >
+        <div class="container">
+            <h5 class="section-headings">Milestones</h5>
+            <div class="sub-section">
+                <h2>Timeline</h2>
+                <div class="milestones">
+                  <ul class="timeline">
+                    <!-- Project Proposal -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">March 2023</p>
+                        <h3>Project Proposal</h3>
+                        <p>A Project Proposal is presented to potential sponsors or clients to receive funding or get your project approved.</p>
+                        <p><strong>Marks Allocated : </strong>6</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-blue" role="progressbar" style="width: 6%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">6%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Progress Presentation I -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">May 2023</p>
+                        <h3>Progress Presentation I</h3>
+                        <p>Progress Presentation I reviews the 50% completetion status of the project. This reveals any gaps or inconsistencies in the design/requirements.</p>
+                        <p><strong>Marks Allocated : </strong>15</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 20%" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-blue" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Research Paper -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">June 2023</p>
+                        <h3>Research Paper</h3>
+                        <p>Describes what you contribute to existing knowledge, giving due recognition to all work that you referred in making new knowledge</p>
+                        <p><strong>Marks Allocated : </strong>10</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-blue" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Progress Presentation II -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">September 2023</p>
+                        <h3>Progress Presentation II</h3>
+                        <p>Progress Presentation II reviews the 90% completetion status demonstration of the project. Along with a Poster presesntation which describes the project as a whole.</p>
+                        <p><strong>Marks Allocated : </strong>18</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 37%" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-blue" role="progressbar" style="width: 18%" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">18%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Website -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">November 2023</p>
+                        <h3>Website Assessment</h3>
+                        <p>The Website helps to promote our research project and reveals all details related to the project.</p>
+                        <p><strong>Marks Allocated : </strong>2</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-blue" role="progressbar" style="width: 4%" aria-valuenow="6" aria-valuemin="0" aria-valuemax="100">2%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Logbook -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">November 2023</p>
+                        <h3>Logbook</h3>
+                        <p>Status of the project is validated through the Logbook.</p>
+                        <p><strong>Marks Allocated : </strong>3</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 57%" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-blue" role="progressbar" style="width: 6%" aria-valuenow="8" aria-valuemin="0" aria-valuemax="100">3%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Final Report -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">November 2023</p>
+                        <h3>Final Report</h3>
+                        <p>Final Report evalutes the completed project done throughout the year. Marks mentioned below includes marks for Individual & group reports and also Final report.</p>
+                        <p><strong>Marks Allocated : </strong>19</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 61%" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-blue" role="progressbar" style="width: 19%" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">19%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Viva -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">October 2023</p>
+                        <h3>Final Presentation & Viva</h3>
+                        <p>Viva is held individually to assess each members contribution to the project.</p>
+                        <p><strong>Marks Allocated : </strong>20</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-blue" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">20%</div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Downloads -->
+      <section id="downloads" class="main-sections" >
+        <div class="container">
+            <h5 class="section-headings">Downloads</h5>
+            <!-- Documents -->
+            <div class="sub-section">
+                <h2>Documents</h2>
+                <p>Please find all documents related to this project below.</p>
+                <div class="row mt-sm-5 downloads-container">
+				 <!-- Topic Assessment -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Topic Assessment</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/02/25</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1gQazZ8NOTZTnPFCAje2TKMzO0doyL85N/view?usp=sharing" target="_blank">Download</a></li>
+                        <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Project Charter -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Charter</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/02/28</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1T_8b9g25qi2FnUnpg3EnOjD0NovLDG92/view?usp=sharing" target="_blank">Download</a></li>
+                        <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Proposal</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/05/07</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1AjEC70ItC6Cgygp58d2brbqBBqUwBf7U?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents I</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/05/22</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1Zp20Gr_oyhY9ZwJuRB5ZEIa2oeaJiCzp?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents II</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/09/2</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1cIqxiQ0KgMHPfBJ1CbRAmwTaukJJmERP?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Research -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Research Paper</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/08/15</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1sFRR71W4gMZRa7-wGbw6LXGTVnrt1JXl/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Final Report -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Final Report</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/09/10</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1LOlOleptccuLDom9jsSH08V7uOx_M4oG/view?usp=sharing" target="_blank">Download</a></li>
+                        <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1A513SuSSBy12GiQTTzRsPfIZbimjzlBc?usp=share_link" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Poster -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-image mr-2 download-image"></i>Poster</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/09/18</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1zo800OBs1ZnKNHI7BurI1DuBjglmdI9c/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Presentations -->
+            <div id="presentations" class="sub-section">
+                <h2>Presentations</h2>
+                <p>Please find all presentations related this project below.</p>
+                <div class="row mt-sm-5 downloads-container">
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Project Proposal</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/05/05</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1sNhxKrM8K_p7rOacK0jCKjHUh76J8ODl/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Progress Presentation I -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation I</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/05/25</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://docs.google.com/presentation/d/1kFuoTO2z8a1QmrlxbS-xn4j-9JZI8zd9/edit?usp=sharing&ouid=105527103271678465552&rtpof=true&sd=true" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Progress Presentation II -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation II</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/09/13</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://docs.google.com/presentation/d/1UmuMiK2WsWn81lBUZ_ZhSTQjLylheRCL/edit?usp=sharing&ouid=105527103271678465552&rtpof=true&sd=true" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Final Presentation -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Final Presentation</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/11/03</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://docs.google.com/presentation/d/1h2HxyUn9WczWk6qlvj9TrG2yIGyS7-hA/edit?usp=sharing&ouid=105527103271678465552&rtpof=true&sd=true" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- About Us -->
+      <section id="about" class="main-sections " style="background-color:#fcfdfd">
+        <div class="container">
+            <h5 class="section-headings">About Us</h5>
+            <div class="sub-section about-us-container ">
+                <h2>Meet Our Team !</h2>
+                <div class="row  mt-sm-5 ">
+                  <!-- Supervisor -->
+                        
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/Ms__Suranjini.jpg" class="about-us-image supervisor" alt="Ms. Suranjini Silva" height="20%" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ms. Suranjini Silva</h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Supervisor</span>
+                                        <div class="text-group">
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Department of Computer System Engineering</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/suranjini-silva-10a52613/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:suranjini.s@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                           
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/sathirah sir.jpg" class="about-us-image cosupervisor" alt="Mr. Sathira Hettiarachchi" height="600%" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mr. Sathira Hettiarachchi</h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Co-Supervisor</span>
+                                        <div class="text-group">
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Department of Information Technology</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/sathira-hettiarachchi-96064b1b9/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:sathira.h@my.sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row  mt-sm-5" style="justify-content: center">
+                          
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/sachin.png" class="about-us-image " alt="Dilshan P.A.D.S.D" height="20%" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dilshan P.A.D.S.D</h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Group Leader</span>
+                                        <div class="text-group">
+                                            <p><strong>Undergraduate</strong></p>
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Information Technlogy</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/sachin-dileepa/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:sachindileepa41@@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                          
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/shanaka.png" class="about-us-image" alt="Amarasinghe P.P.S" height="20%" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Amarasinghe P.P.S</h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Group Member</span>
+                                        <div class="text-group">
+                                            <p><strong>Undergraduate</strong></p>
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Software Engineering</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text mr-4" style="cursor: pointer;" href="#"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:it20264352@my.sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                          
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/dilsha.png" class="about-us-image" alt="H.K.A.D Sandamini" height="20%" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">H.K.A.D Sandamini</h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Group Member</span>
+                                        <div class="text-group">
+                                            <p><strong>Undergraduate</strong></p>
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Information Technology</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text mr-4" style="cursor: pointer;" href="#"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:it20106010@my.sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                       
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/himanka.png" class="about-us-image" alt="Manimendra N.H" height="20%" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Manimendra N.H</h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Group Member</span>
+                                        <div class="text-group">
+                                            <p><strong>Undergraduate</strong></p>
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Software Engineering</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text mr-4" style="cursor: pointer;" href="#"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:it20163204@my.sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    
+    <section id="achievements" class="main-sections" >
+      <div class="container">
+        <h2 class="pb-5 pt-5 text-center  display-5">Achievements</h2>
+                <div class="section-center">
+                  <div class="section-figure text-center">
+                    <img src="./Images/ach/achi.png" width="70%"/>
+                  </div>
+                </div>
+        <div>
+       </br>
+       <p style="text-align: justify;"> Our Research Paper was accepted by those Conferences and Journals.</P>
+              </div>
+      </div>
+    </section>
+   
+    <!-- Promo Banner -->
+    <section id="banner" class="main-sections">
+        <div class="promo-banner">
+            <div class="container">
+
+                <div class="section-center">
+                    <div class="section-figure">
+                        <img src="./Images/logo/log1.png" width="20%" />
+                    </div>
+                </div>
+            </div>
+            <h2 class="promo-banner-title">Download Now!</h2>
+            <p class="promo-banner-text">AquaSense+ mobile application is now available for download . Click below to get the app now!</p>
+
+            <div class="section-center">
+                <div class="section-figure">
+                    <a href="#"><img src="./Images/back/playstore.png" width="15%"/></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="main-sections" style="background-color:#547faa28">
+        <div class="container">
+            <h5 class="section-headings">Contact Us</h5>
+            <div class="sub-section">
+                <h2>Get in Touch</h2>
+                <div class="row  mt-sm-5">
+                    <div class="col-md-6 col-sm-12 contact-form">
+                        <form action="MAILTO:aquasenseplus@gmail.com" method="POST" enctype="text/plain">
+                           <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            </div>
+                           <button type="submit" class="btn btncolorgradient	">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6 col-sm-12 contact-details">
+                        <div>
+                            <p><strong>Contact Details</strong></p>
+                            <p>For further queries please reach us at <a href="mailto: aquasenseplus@gmail.com">aquasenseplus@gmail.com</a></p>
+            
+                            <p>-Team AquaSense+ </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Scripts -->
+    <script src="./lib/jquery/jquery-3.5.1.slim.min.js"></script>
+    <script src="./lib/fontawesome/js/all.min.js"></script>
+    <script src="./lib/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
